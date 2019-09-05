@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImmutableArray Collection Reader deleteWith 1`] = `
+Array [
+  Object {
+    "age": 23,
+    "city": "newyork",
+    "id": "3",
+    "isFemale": true,
+    "name": "taylor",
+  },
+  Object {
+    "age": 53,
+    "city": "london",
+    "id": "4",
+    "isFemale": true,
+    "name": "sam",
+  },
+]
+`;
+
+exports[`ImmutableArray Collection Reader getShow 1`] = `"[{ id: \\"1\\", name: \\"john\\" }, { id: \\"2\\", name: \\"zhang\\" }, { id: \\"3\\", name: \\"taylor\\" }, { id: \\"4\\", name: \\"sam\\" }]"`;
+
+exports[`ImmutableArray Collection Reader groupByOption 1`] = `
+Object {
+  "\\"beijing\\"": Array [
+    Object {
+      "age": 21,
+      "city": "beijing",
+      "id": "1",
+      "isFemale": false,
+      "name": "john",
+    },
+    Object {
+      "age": 34,
+      "city": "beijing",
+      "id": "2",
+      "isFemale": false,
+      "name": "zhang",
+    },
+  ],
+  "\\"london\\"": Array [
+    Object {
+      "age": 53,
+      "city": "london",
+      "id": "4",
+      "isFemale": true,
+      "name": "sam",
+    },
+  ],
+  "\\"newyork\\"": Array [
+    Object {
+      "age": 23,
+      "city": "newyork",
+      "id": "3",
+      "isFemale": true,
+      "name": "taylor",
+    },
+  ],
+}
+`;
+
+exports[`ImmutableArray Collection Reader updateWith 1`] = `
+Array [
+  Object {
+    "age": 21,
+    "city": "beijing",
+    "id": "1",
+    "isFemale": false,
+    "name": "test",
+  },
+  Object {
+    "age": 34,
+    "city": "beijing",
+    "id": "2",
+    "isFemale": false,
+    "name": "test",
+  },
+  Object {
+    "age": 23,
+    "city": "newyork",
+    "id": "3",
+    "isFemale": true,
+    "name": "taylor",
+  },
+  Object {
+    "age": 53,
+    "city": "london",
+    "id": "4",
+    "isFemale": true,
+    "name": "sam",
+  },
+]
+`;
